@@ -1,6 +1,6 @@
 {
-    "version":  "7.6.258",
+    "version":  "7.6.900",
     "mandatory":  false,
-    "zip_url":  "https://github.com/InfoSistemas-Desenvolvimetno/infosistemas-updates/releases/download/v7.6.258/InfoSistemas-Update-7.6.258.zip",
-    "notes":  "Canal de HOMOLOGACAO. Semente igual a versao instalada na bancada - nenhuma atualizacao e oferecida ate publicarmos a 7.6.900."
+    "zip_url":  "https://github.com/InfoSistemas-Desenvolvimetno/infosistemas-updates-homolog/releases/download/v7.6.900/InfoSistemas-Update-7.6.900.zip",
+    "notes":  "ENSAIO DE ENTREGA - canal de homologacao. Mesmo codigo da 7.6.258; so o numero muda. NAO instalar em loja."
 }
