@@ -1,0 +1,6 @@
+{
+    "version":  "7.6.258",
+    "mandatory":  false,
+    "zip_url":  "https://github.com/InfoSistemas-Desenvolvimetno/infosistemas-updates/releases/download/v7.6.258/InfoSistemas-Update-7.6.258.zip",
+    "notes":  "Canal de HOMOLOGACAO. Semente igual a versao instalada na bancada - nenhuma atualizacao e oferecida ate publicarmos a 7.6.900."
+}
