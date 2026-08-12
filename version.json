@@ -1,6 +1,6 @@
 {
-    "version":  "7.6.900",
-    "mandatory":  false,
-    "zip_url":  "https://github.com/InfoSistemas-Desenvolvimetno/infosistemas-updates-homolog/releases/download/v7.6.900/InfoSistemas-Update-7.6.900.zip",
-    "notes":  "ENSAIO DE ENTREGA - canal de homologacao. Mesmo codigo da 7.6.258; so o numero muda. NAO instalar em loja."
+  "version": "7.6.901",
+  "mandatory": false,
+  "zip_url": "https://github.com/InfoSistemas-Desenvolvimetno/infosistemas-updates-homolog/releases/download/v7.6.901/InfoSistemas-Update-7.6.901.zip",
+  "notes": "Homologacao 7.6.901 - primeira publicacao pelo nosso gate.\n\nNAO INSTALAR EM LOJA. A faixa 7.6.9xx e reservada a bancada de homologacao.\n\nCodigo de produto identico a 7.6.263. As duas mudancas sao de infraestrutura de\nentrega, e sao o que esta versao existe para exercitar:\n\n1. O atualizador passa a consultar o canal proprio da InfoSistemas. Ate aqui ele\n   consultava a conta pessoal do desenvolvedor anterior, e por isso nenhuma release\n   nossa chegava ao cliente.\n\n2. Canal e pasta de instalacao passam a ser configuracao da MAQUINA. A atualizacao\n   deixa de sobrescrever o appsettings.json da instalacao. Maquina dedicada a\n   homologacao permanece no canal de homologacao; instalacao fora de C:\\InfoSistemas\n   mantem o caminho. Excecao deliberada: maquina ainda apontada para o canal\n   aposentado e migrada uma unica vez.\n   Este item so passa a valer a partir da atualizacao SEGUINTE - quem executa a\n   troca e o atualizador que ja esta na maquina, e nesta instalacao ele ainda e o\n   antigo. Reapontar a maquina de homologacao uma ultima vez depois desta versao.\n\nGate: build no Windows com -t:Rebuild, 0 erros, 279 avisos contra a linha de base\nde 288. Verificador das 4 copias de MigracaoDb.cs verde."
 }
